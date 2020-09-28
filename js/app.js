@@ -73,18 +73,21 @@ function fireCalc() {
   m1 = Number(conversion());
   m2 = Number(conversion());
   m3 = conversion();
+  let sum = (m1 * m2 * m3) / 128; 
 
   document.body.innerHTML = `<ul>
-    <li>Measurement 1: ${m1}</li>
-    <li>Measurement 2: ${m2}</li>
-    <li>Measurement 3: ${m3}</li>
+   <div id="measurement">
+    <li class="measurement">Measurement 1: ${m1}</li>
+    <li class="measurement">Measurement 2: ${m2}</li>
+    <li class="measurement">Measurement 3: ${m3}</li>
+   </div>
+    <li id="equation">(${m1} * ${m2} * ${m3}) / 128</li> 
+    <li id="sum">${sum}</li>
     
     </ul>`
-  alert(`(${m1} x ${m2} x ${m3}) / 128 = ` + (m1 * m2 * m3) / 128);
+  
 
 
 }
 
 fireCalc();
-
-
