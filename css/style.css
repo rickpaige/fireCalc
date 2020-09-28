@@ -1,13 +1,19 @@
-  
-#sum {
+.sum {
 
 	display: flex; 
 	justify-content: center; 
 	padding-top: 200px; 
 	padding-right: 80px; 
 	font-weight: 999; 
-	font-size: xxx-large; 
+	font-size: xx-large; 
 	color: red; 
+
+
+}
+
+
+#equation {
+		font-size: xxx-large;
 
 
 }
@@ -15,7 +21,8 @@
 
 #measurement {
 		display: flex; 
-		justify-content: center; 
+		justify-content: center;
+		color: white;  
 		
 }
 
@@ -26,5 +33,10 @@
 		padding-right: 60px; 
 
 
+
+}
+
+body {
+	background-color: black; 
 
 }
