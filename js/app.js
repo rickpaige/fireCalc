@@ -81,8 +81,8 @@ function fireCalc() {
     <li class="measurement">Measurement 2: ${m2}</li>
     <li class="measurement">Measurement 3: ${m3}</li>
    </div>
-    <li id="equation">(${m1} * ${m2} * ${m3}) / 128</li> 
-    <li id="sum">${sum}</li>
+   
+    <li class="sum">${sum}</li>
     
     </ul>`
   
